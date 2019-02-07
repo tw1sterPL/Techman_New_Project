@@ -76,7 +76,7 @@ h2 {
     top: 5%;
     font-size: 30px;
     color: #ccc;
-    
+
 }
 
 aside {
@@ -144,12 +144,13 @@ aside.show {
     position: absolute;
     top: 35%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     font-family: 'Lato', sans-serif;
     color: white;
     font-size: 40px;
-    letter-spacing: 10px;   
+    letter-spacing: 10px;
 }
+
 .main h2 {
     position: absolute;
     top: 45%;
@@ -159,22 +160,32 @@ aside.show {
     font-family: 'Lato', sans-serif;
     color: white;
     font-size: 20px;
-      
+
 }
+
 .typed {
     border-bottom: 2px solid #ffffff;
-  }
-
- .typed-cursor{
-   opacity: 1;
-   animation: a1 0.7s infinite;
-} 
-
-@keyframes a1{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
 }
+
+.typed-cursor {
+    opacity: 1;
+    animation: a1 0.7s infinite;
+}
+
+@keyframes a1 {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 .arrow {
     position: fixed;
     left: 50%;
@@ -182,9 +193,11 @@ aside.show {
     transform: translateX(-50%);
     font-size: 50px;
 }
+
 .arrow a {
     color: #ccc;
 }
+
 /* Section: about */
 .about {
     height: 100vh;
@@ -200,6 +213,7 @@ aside.show {
     width: 100%;
     height: 300px;
 }
+
 /* Section: project */
 
 .project {
@@ -215,48 +229,50 @@ aside.show {
         top: 5%;
         font-size: 25px;
         color: #ccc;
-}
-aside {
-    top: 18%;
-    bottom: 18%;
-    right: -100px;
-    width: 60px;
-}
+    }
 
-.menu i {
-    font-size: 20px;
-}
+    aside {
+        top: 18%;
+        bottom: 18%;
+        right: -100px;
+        width: 60px;
+    }
 
-.menu li {
-    width: 80px;
-}
+    .menu i {
+        font-size: 20px;
+    }
 
-.menu ul {
-position: absolute;
-left: -30%;
-top: -1%;
-}
+    .menu li {
+        width: 80px;
+    }
 
-.main h1 {
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    font-family: 'Lato', sans-serif;
-    color: white;
-    font-size: 40px;
-    letter-spacing: 10px;   
-}
-.main h2 {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    width: 50%;
-    font-family: 'Lato', sans-serif;
-    color: white;
-    font-size: 23px;
-    text-align: center;
-      
-}
+    .menu ul {
+        position: absolute;
+        left: -30%;
+        top: -1%;
+    }
+
+    .main h1 {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Lato', sans-serif;
+        color: white;
+        font-size: 40px;
+        letter-spacing: 10px;
+    }
+
+    .main h2 {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        width: 50%;
+        font-family: 'Lato', sans-serif;
+        color: white;
+        font-size: 23px;
+        text-align: center;
+
+    }
 
 }
