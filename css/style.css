@@ -117,7 +117,7 @@ aside.show {
     list-style: none;
 }
 
-.menu ul li {
+.menu li {
     width: 80px;
 }
 
@@ -138,7 +138,6 @@ aside.show {
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: 50%;
-    z-index: 1;
 }
 
 .main h1 {
@@ -154,11 +153,12 @@ aside.show {
 .main h2 {
     position: absolute;
     top: 45%;
-    left: 58%;
+    left: 50%;
     width: 80%;
+    text-align: center;
     font-family: 'Lato', sans-serif;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
       
 }
 .typed {
@@ -174,4 +174,89 @@ aside.show {
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
+}
+.arrow {
+    position: fixed;
+    left: 50%;
+    bottom: 5%;
+    transform: translateX(-50%);
+    font-size: 50px;
+}
+.arrow a {
+    color: #ccc;
+}
+/* Section: about */
+.about {
+    height: 100vh;
+}
+
+.about-us {
+    margin: 0 10px;
+    text-align: center;
+    font-family: roboto, sans-serif;
+}
+
+.about-us img {
+    width: 100%;
+    height: 300px;
+}
+/* Section: project */
+
+.project {
+    height: 100vh;
+}
+
+
+
+/* Media Quaries */
+@media (orientation: landscape) {
+    .burger {
+        right: 3%;
+        top: 5%;
+        font-size: 25px;
+        color: #ccc;
+}
+aside {
+    top: 18%;
+    bottom: 18%;
+    right: -100px;
+    width: 60px;
+}
+
+.menu i {
+    font-size: 20px;
+}
+
+.menu li {
+    width: 80px;
+}
+
+.menu ul {
+position: absolute;
+left: -30%;
+top: -1%;
+}
+
+.main h1 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 10px;   
+}
+.main h2 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: 50%;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 23px;
+    text-align: center;
+      
+}
+
 }
