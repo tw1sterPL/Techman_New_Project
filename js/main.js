@@ -1,9 +1,6 @@
 // Preloader
 $(window).on("load", function () {
-    setTimeout(
-        function () {
-            $(".first-screen").fadeOut();
-        }, 3000)
+    $("#loader-wrapper").fadeOut();
 });
 // Menu hamburger
 $(".burger").on("click", function () {
