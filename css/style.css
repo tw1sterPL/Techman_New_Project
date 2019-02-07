@@ -135,7 +135,7 @@ aside.show {
 
 .main {
     height: 100vh;
-    background-image: url(/images/main.jpg);
+    background-image: url(../images/main.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: 50%;
