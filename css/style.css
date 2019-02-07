@@ -1,0 +1,63 @@
+body {
+    height: 100vh;
+}
+
+/* Hamburger menu */
+.burger {
+    position: fixed;
+    right: 10%;
+    top: 5%;
+    font-size: 30px;
+    color: #ccc;
+    z-index: 1;
+}
+
+aside {
+    position: fixed;
+    /* display: flex;
+    align-items: center; */
+    top: 15%;
+    bottom: 10%;
+    right: -100px;
+    width: 100px;
+    background-color: rgb(0, 0, 0, 0.0);
+    transition: linear .5s;
+    
+
+}
+
+.burger .fas {
+    display: none;
+}
+
+.burger i.show {
+    display: block;
+}
+
+aside.show {
+    right: 0px;
+}
+.menu {
+    height: 90%;
+}
+.menu ul {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    height: 90%;
+    
+    list-style: none;
+}
+
+.menu ul li {
+    width: 80px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+.menu i {
+    font-size: 35px;
+}
