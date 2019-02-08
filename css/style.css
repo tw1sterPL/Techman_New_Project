@@ -74,25 +74,24 @@ h2 {
 
 .burger {
     position: fixed;
-    right: 10%;
+    right: 14%;
     top: 5%;
-    font-size: 30px;
+    font-size: 40px;
     color: #ccc;
 
 }
 
 aside {
     position: fixed;
-    /* display: flex;
-    align-items: center; */
     top: 15%;
     bottom: 15%;
-    right: -100px;
-    width: 100px;
+    right: -150px;
+    /* width: 100px; */
     background-color: black;
     opacity: 0.5;
     transition: linear .5s;
-    z-index: 500;
+    z-index: 500;   
+    border-radius: 50px; 
 }
 
 .burger .fas {
@@ -104,7 +103,7 @@ aside {
 }
 
 aside.show {
-    right: 0px;
+    right: 10px;
 }
 
 .menu {
@@ -204,7 +203,7 @@ aside.show {
 
 /* Section: about */
 .about {
-    height: 70vh;
+    height: 80vh;
     width: 90%;
     margin: 0 auto;
 }
@@ -225,9 +224,13 @@ aside.show {
 .project {
     height: 100vh;
     width: 90%;
-    margin: 0 auto;
+    margin: 20px auto 0;
     font-family: roboto, sans-serif;
 
+}
+
+.project h1 {
+    text-align: center;
 }
 
 
