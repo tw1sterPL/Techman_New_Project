@@ -141,7 +141,7 @@ aside.show {
     overflow: hidden;
     background-image: url(../images/main.jpg);
     background-size: cover;
-    /* background-position-x: 50%; */
+    background-position-x: 10%;
 }
 
 .main h1 {
