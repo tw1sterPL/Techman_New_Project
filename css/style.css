@@ -234,11 +234,11 @@ aside.show {
 .project h1 {
     text-align: center;
 }
-
+.gallery {
+    height: 100%;
+}
 .gallery img {
     width: 100%;
-
-
 }
 
 
@@ -301,5 +301,25 @@ aside.show {
         text-align: center;
 
     }
+    .project {
+        min-height: 200vh;
+        width: 90%;
+        margin: 10px auto ;
+        font-family: roboto, sans-serif;
+        overflow: hidden;
+    
+    }
+    .gallery {
+        display: flex;
+        height: 250px;
+        flex-wrap: wrap;
+    }
 
+    .gallery a, img {
+        width: 40%;
+    }
+    /* .gallery img {
+        width: 30%;
+    } */
+    
 }
