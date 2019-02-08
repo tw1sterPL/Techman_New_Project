@@ -137,6 +137,7 @@ aside.show {
 
 .main {
     height: 100vh;
+    width: 100%;
     background-image: url(../images/main.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -190,7 +191,7 @@ aside.show {
 }
 
 .arrow {
-    position: fixed;
+    position: absolute;
     left: 50%;
     bottom: 5%;
     transform: translateX(-50%);
@@ -198,12 +199,14 @@ aside.show {
 }
 
 .arrow a {
-    color: #ccc;
+    color: white;
 }
 
 /* Section: about */
 .about {
-    height: 100vh;
+    height: 70vh;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .about-us {
@@ -221,6 +224,10 @@ aside.show {
 
 .project {
     height: 100vh;
+    width: 90%;
+    margin: 0 auto;
+    font-family: roboto, sans-serif;
+
 }
 
 
