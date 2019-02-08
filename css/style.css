@@ -204,7 +204,7 @@ aside.show {
 
 /* Section: about */
 .about {
-    height: 80vh;
+    min-height: 80vh;
     width: 90%;
     margin: 0 auto;
 }
