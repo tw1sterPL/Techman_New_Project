@@ -291,7 +291,7 @@ div.adress p {
 
 /* Mapy Google */
 
-#google-maps {
+.go-maps {
     position: absolute;
     top: 25%;
     left: 8%;
@@ -300,17 +300,21 @@ div.adress p {
     opacity: 0;  
 }
 
-#google-maps iframe {
+.go-maps iframe {
     height: 100%;
     width: 100%;
     
 }
-#google-maps a {
+.go-maps a {
     position: absolute;
     top: -11%;
     right: -10%;
     font-size: 30px;
     color: white;
+}
+
+.on  {
+    opacity: 1
 }
 
 

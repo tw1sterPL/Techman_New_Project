@@ -31,9 +31,9 @@ $('.arrow a').on('click', function () {
     })
 });
 // Google Maps
-$("#open-maps").on('click', function () {
-    $("#google-maps").css('opacity','1');
+$(".open-maps").on('click', function () {
+    $(".go-maps").toggleClass('on');
 });
-$('#close-button').on('click', function(){
-    $('#google-maps').css('opacity','0');
-});
+// $('.close-button').on('click', function(){
+//     $('.google-maps').css('opacity','0');
+// });
