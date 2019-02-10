@@ -4,7 +4,7 @@ $(window).on("load", function () {
 });
 // Menu hamburger
 $(".burger").on("click", function () {
-    $(".fas,.aside,.burger").toggleClass("show");
+    $(".fas,aside,.burger").toggleClass("show");
 });
 
 //Typed Text
