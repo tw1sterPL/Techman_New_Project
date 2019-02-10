@@ -291,22 +291,20 @@ div.adress p {
 
 /* Mapy Google */
 
-#google-maps {
+.google-maps {
     position: absolute;
     top: 25%;
     left: 8%;
     width: 80%;
-    height: 50vh;
-    opacity: 0;
-    
-    
+    height: 50vh;    
 }
-#google-maps iframe {
+
+.google-maps iframe {
     height: 100%;
     width: 100%;
     
 }
-#google-maps a {
+.google-maps a {
     position: absolute;
     top: -11%;
     right: -10%;
@@ -314,12 +312,11 @@ div.adress p {
     color: white;
 }
 
-#google-maps .on {
-    
+.google-maps .on {
     opacity: 1;
-    
-    
+     
 }
+
 
 /* Media Quaries */
 @media (orientation: landscape) {
