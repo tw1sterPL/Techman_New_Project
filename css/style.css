@@ -296,7 +296,8 @@ div.adress p {
     top: 25%;
     left: 8%;
     width: 80%;
-    height: 50vh;    
+    height: 50vh;  
+    opacity: 0;  
 }
 
 .google-maps iframe {
