@@ -30,3 +30,6 @@ $('.arrow a').on('click', function(){
        scrollTop: $('.about').offset().top
    }) 
 });
+// Google Maps
+$('.maps-button').on('click', function() {
+    $('#google-maps').toggleClass("on")});
