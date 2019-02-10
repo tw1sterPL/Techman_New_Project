@@ -13,7 +13,7 @@
     left: 0;
     right: 0;
     z-index: 1000;
-    background: black;
+    background: #7a837e;
 }
 
 h2 {
@@ -23,7 +23,7 @@ h2 {
     transform: translate(-55%, 50%);
     font-family: roboto;
     text-transform: uppercase;
-    color: #ff1d5e;
+    color: white;
 
 
 }
