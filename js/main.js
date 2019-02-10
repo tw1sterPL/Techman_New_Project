@@ -34,6 +34,6 @@ $('.arrow a').on('click', function () {
 $(".open-maps").on('click', function () {
     $(".go-maps").toggleClass('on');
 });
-// $('.close-button').on('click', function(){
-//     $('.google-maps').css('opacity','0');
-// });
+$('.close-button').on('click', function(){
+    $('.go-maps').removeClass('on');
+});
