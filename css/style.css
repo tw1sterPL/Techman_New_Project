@@ -1,4 +1,6 @@
-
+.body {
+    overflow: hidden;
+}
 .wrraper h1,h2 {
     text-align: center;
     text-transform: uppercase;
@@ -16,6 +18,17 @@
     background: #7a837e;
 }
 
+h2 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-55%, 50%);
+    font-family: roboto;
+    text-transform: uppercase;
+    color: white;
+
+
+}
 
 .half-circle-spinner {
     width: 60px;
@@ -37,12 +50,12 @@
 }
 
 .half-circle-spinner .circle.circle-1 {
-    border-top-color: white;
+    border-top-color: #ff1d5e;
     animation: half-circle-spinner-animation 1s infinite;
 }
 
 .half-circle-spinner .circle.circle-2 {
-    border-bottom-color:white;
+    border-bottom-color: #ff1d5e;
     animation: half-circle-spinner-animation 1s infinite alternate;
 }
 
