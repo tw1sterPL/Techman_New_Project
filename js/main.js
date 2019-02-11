@@ -37,3 +37,31 @@ $(".open-maps").on('click', function () {
 $('.close-button').on('click', function(){
     $('.go-maps').removeClass('on');
 });
+// Carousel Glide
+
+var glide = new Glide('.glide', {
+    type: 'carousel',
+//   focusAt: 'center',
+  autoplay: 2000,
+  hoverpause: false,
+  breakpoints: {
+    600: { perView: 2 },
+    2000: { perView: 3 }
+  },
+  animationDuration: 1000
+})
+
+glide.mount()
+
+var glide = new Glide('.glide_alu', {
+    type: 'carousel',
+  autoplay: 2000,
+  hoverpause: false,
+  breakpoints: {
+    600: { perView: 1 },
+    2000: { perView: 2 }
+  },
+  animationDuration: 1000
+})
+
+glide.mount()
