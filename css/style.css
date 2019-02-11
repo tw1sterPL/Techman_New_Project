@@ -273,9 +273,16 @@ aside.show {
     -o-object-fit: fill;
        object-fit: fill;
 }
+.about-us p {
+    font-size: 18px;
+}
 
-
-
+.about-offer h3 {
+    font-size: 23px;
+}
+.about-us p {
+    font-size: 18px;
+}
 /* Section: project */
 
 .project {
@@ -381,6 +388,9 @@ div.adress p {
 
 /* Media Quaries */
 @media (orientation: landscape) {
+    .wrraper h1 {
+       font-size: 40px; 
+    }
     .burger {
         right: 3%;
         top: 5%;
@@ -436,7 +446,12 @@ div.adress p {
         font-size: 23px;
         text-align: center;
 
+    }    
+    .about-offer h3 {
+        font-size: 35px;;
     }
+    .about-us p {
+        font-size: 25px;}
     .project {
         min-height: 200vh;
         width: 90%;

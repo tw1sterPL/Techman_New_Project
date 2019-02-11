@@ -45,10 +45,10 @@ var glide = new Glide('.glide', {
   autoplay: 2000,
   hoverpause: false,
   breakpoints: {
-    415: { perView: 1 },
+    415: { perView: 2 },
     1000: { perView: 3 }
   },
-  animationDuration: 1000
+  animationDuration: 2000
 })
 
 glide.mount()
@@ -61,7 +61,7 @@ var glide = new Glide('.glide_alu', {
     415: { perView: 1 },
     2000: { perView: 2 }
   },
-  animationDuration: 1000
+  animationDuration: 2500
 })
 
 glide.mount()
