@@ -176,7 +176,6 @@ aside.show {
     background-image: url(../images/main.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    /* background-size: auto; */
 }
 
 .main h1 {
@@ -277,7 +276,7 @@ aside.show {
     font-size: 18px;
 }
 
-.about-offer h3 {
+.about-us h3 {
     font-size: 23px;
 }
 .about-us p {
@@ -395,7 +394,6 @@ div.adress p {
         right: 3%;
         top: 5%;
         font-size: 25px;
-        color: #ccc;
     }
 
     aside {
@@ -417,49 +415,29 @@ div.adress p {
     .menu i {
         font-size: 25px;
     }
-    .main {
-        height: 100vh;
-        width: 100%;
+    /* Section: main */
+    .main {  
         background-image: url(../images/main2.jpg);
         background-size: cover;
-        background-repeat: no-repeat;
     }
-    .main h1 {
-        position: absolute;
-        top: 35%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-                transform: translate(-50%, -50%);
-        font-family: 'Lato', sans-serif;
-        color: white;
-        font-size: 40px;
-        letter-spacing: 10px;
-    }
-
     .main h2 {
-        position: absolute;
-        top: 45%;
-        left: 50%;
         width: 50%;
-        font-family: 'Lato', sans-serif;
-        color: white;
         font-size: 23px;
         text-align: center;
-
-    }    
-    .about-offer h3 {
-        font-size: 35px;;
-    }
+    } 
+      /* Section: about  */
+    .about h1 {
+        font-size: 35px;
+    } 
     .about-us p {
-        font-size: 25px;}
-    .project {
-        min-height: 200vh;
-        width: 90%;
-        margin: 10px auto ;
-        font-family: roboto, sans-serif;
-        overflow: hidden;
-    
+        font-size: 20px;
     }
+    
+    .about-us h3 {
+        font-size: 25px;
+    }
+
+    /* Section: project */
     .gallery {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -474,6 +452,7 @@ div.adress p {
     .gallery a, img {
         width: 45%;
     }
+    /* Section: footer */
     .footer-icon {       
         bottom: 5%;
     }
@@ -497,5 +476,420 @@ div.adress p {
     }
 
 }
+@media (min-width: 415px) and (max-width: 1024px) and (orientation: portrait) {
+/* Hamburger menu */
+
+.burger {
+    font-size: 50px;
+}
+
+.burger .fas {
+    display: none;
+}
+
+.burger i.show {
+    display: block;
+}
+
+aside.show {
+    right: 3%;
+}
+
+/* Section: main */
+.main {
+        height: 100vh;
+        width: 100%;
+        background-image: url(../images/main.jpg);
+       
+}
+.main h1 {
+    font-size: 90px;
+}
+
+.main h2 {
+    left: 55%;
+    font-size: 45px;
+}
+
+.arrow {
+    font-size: 80px;
+}
 
 
+/* Section: about */
+.about h1 {
+    font-size: 50px;
+}
+.about-offer h3 {
+    font-size: 43px;
+}
+.about-us p {
+    font-size: 25px;
+}
+/* Section: project */
+.project {
+    min-height: 50vh;
+}   
+.project h1 {
+    font-size: 50px;
+    text-align: center;
+}
+.gallery {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 80%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+.gallery a, img {
+    width: 45%;
+}
+
+/* Section: footer */
+.footer-title {
+  font-size: 50px;
+}
+.footer-icon a {
+    font-size: 80px;
+}
+div.adress {
+    top: 28%;
+}
+div.adress p {
+    font-size: 35px;
+}
+
+/* Mapy Google */
+
+.go-maps {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    width: 80%;
+    height: 50vh;  
+    opacity: 0;  
+}
+
+.go-maps iframe {
+    height: 100%;
+    width: 100%;
+    
+}
+.go-maps a {
+    position: absolute;
+    top: -11%;
+    right: -10%;
+    font-size: 30px;
+    color: white;
+}
+
+.on  {
+    opacity: 1
+}
+
+
+
+  }
+@media (min-width: 1024px) and (max-width: 1365px) and (orientation: landscape) {
+ /* Hamburger menu */
+
+.burger {
+    font-size: 50px;
+}
+
+.burger .fas {
+    display: none;
+}
+
+.burger i.show {
+    display: block;
+}
+
+aside.show {
+    right: 3%;
+}
+
+/* Section: main */
+.main {
+    background-image: url(../images/main2.jpg);
+}
+.main h1 {
+    width: 90%;
+    font-size: 120px;
+}
+
+.main h2 {
+    top: 50%;
+    left: 55%;
+    font-size: 40px;
+}
+
+.arrow {
+    font-size: 80px;
+}
+
+
+/* Section: about */
+.about-title p {
+    letter-spacing: 3px;
+}
+/* img.about-image {
+    float: left;
+    width:30%;
+} */
+.about h1 {
+    font-size: 50px;
+}
+.about-offer h3 {
+    font-size: 43px;
+}
+.about-us p {
+    font-size: 25px;
+}
+/* Section: project */
+.project {
+    min-height: 100vh;
+}   
+.project h1 {
+    font-size: 50px;
+    text-align: center;
+}
+.gallery {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 80%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+.gallery a, img {
+    width: 45%;
+}
+
+/* Section: footer */
+.footer-title {
+width: 100%;
+height: 20%;
+}
+.footer-title h1 {
+    font-size: 80px;
+}
+.footer-icon a {
+    font-size: 60px;
+}
+div.adress {
+    top: 25%;
+}
+div.adress p {
+    font-size: 30px;
+}
+
+/* Mapy Google */
+
+.go-maps {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    width: 80%;
+    height: 50vh;  
+    opacity: 0;  
+}
+
+.go-maps iframe {
+    height: 100%;
+    width: 100%;
+    
+}
+.go-maps a {
+    position: absolute;
+    top: -11%;
+    right: -10%;
+    font-size: 30px;
+    color: white;
+}
+
+.on  {
+    opacity: 1
+}
+  }
+@media (min-width: 1366px) {
+/* Hamburger menu */
+.burger {
+opacity: 0;
+}
+
+aside {
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 90px;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 500;
+    border-radius: 0;
+    
+
+}
+
+
+.burger i.show {
+    display: block;
+}
+.menu {
+    display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+    width: 80%;
+    height: 80%;
+}
+
+.menu a {
+    height: 30px;
+    text-decoration: none;
+    color: #ccc;
+}
+
+.menu i {
+    font-size: 35px;
+    color: white;
+}
+
+/* Section: main */
+.main {
+    background-image: url(../images/main2.jpg);
+}
+.main h1 {
+    width: 90%;
+    font-size: 120px;
+}
+
+.main h2 {
+    top: 50%;
+    left: 55%;
+    font-size: 40px;
+}
+
+.arrow {
+    font-size: 80px;
+}
+
+
+/* Section: about */
+.about {
+    min-height: 100vh;
+}
+.about-title {
+   height: 300px;
+    
+}
+.about-title p {
+    margin-top:10px;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+/* img.about-image {
+    float: left;
+    width:30%;
+} */
+.about h1 {
+    font-size: 50px;
+}
+.glide__slide img {
+    width: 40%;
+}
+.glide_alu {
+    width: 50%;
+    margin: 0 auto;
+}
+.about-offer h3 {
+    font-size: 43px;
+}
+.about-us p {
+    font-size: 25px;
+}
+/* Section: project */
+.project {
+    min-height: 100vh;
+}   
+.project h1 {
+    font-size: 50px;
+    text-align: center;
+}
+.gallery {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 80%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+.gallery a, img {
+    width: 30%;
+}
+
+/* Section: footer */
+.footer-title {
+width: 100%;
+height: 20%;
+}
+.footer-title h1 {
+    font-size: 80px;
+}
+.footer-icon a {
+    font-size: 60px;
+}
+div.adress {
+    top: 25%;
+}
+div.adress p {
+    font-size: 30px;
+}
+
+/* Mapy Google */
+
+.go-maps {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    width: 80%;
+    height: 50vh;  
+    opacity: 0;  
+}
+
+.go-maps iframe {
+    height: 100%;
+    width: 100%;
+    
+}
+.go-maps a {
+    position: absolute;
+    top: -11%;
+    right: -10%;
+    font-size: 30px;
+    color: white;
+}
+
+.on  {
+    opacity: 1
+}
+
+
+  }
