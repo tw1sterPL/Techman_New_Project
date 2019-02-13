@@ -60,7 +60,7 @@ var glide = new Glide('.glide_alu', {
   hoverpause: false,
   breakpoints: {
     415: { perView: 1 },
-    2000: { perView: 1 }
+    2000: { perView: 2 }
   },
   animationDuration: 2500
 })

@@ -718,7 +718,8 @@ div.adress p {
 }
   }
 @media (min-width: 1366px) {
-/* Hamburger menu */
+
+    /* Hamburger menu */
 .burger {
 opacity: 0;
 }
@@ -746,10 +747,6 @@ aside {
 
 }
 
-
-.burger i.show {
-    display: block;
-}
 .menu {
     display: flex;
    flex-direction: column;
@@ -794,21 +791,31 @@ aside {
 .about {
     min-height: 100vh;
 }
+.about h1 {
+    font-size: 50px;
+}
 .about-title {
-   height: 300px;
+   height: 400px;
     
 }
 .about-title p {
-    margin-top:10px;
+    padding: 100px;
+    text-align: justify;
     letter-spacing: 1px;
-    font-size: 30px;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
 }
 /* img.about-image {
     float: left;
     width:30%;
 } */
-.about h1 {
-    font-size: 50px;
+
+.about-offer p {
+    font-size: 30px;
+    padding: 50px 0;
+}
+.about-offer h3 {
+    font-size: 45px;
 }
 .glide__slide img {
     width: 40%;
@@ -817,17 +824,13 @@ aside {
     width: 50%;
     margin: 0 auto;
 }
-.about-offer h3 {
-    font-size: 43px;
-}
-.about-us p {
-    font-size: 25px;
-}
+
 /* Section: project */
 .project {
     min-height: 100vh;
 }   
 .project h1 {
+    padding-bottom: 30px;
     font-size: 50px;
     text-align: center;
 }
