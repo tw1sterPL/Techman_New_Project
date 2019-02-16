@@ -208,6 +208,14 @@ aside.show {
     width: 150px;
     height: 150px;
 }
+.main a {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
 
 .typed {
     border-bottom: 2px solid #ffffff;
@@ -434,6 +442,21 @@ div.adress p {
         font-size: 23px;
         text-align: center;
     } 
+    .main img {
+        position: fixed;
+        top: 0;
+        left: -1%;
+        width: 150px;
+        height: 150px;
+    }
+    .main a {
+        position: absolute;
+        top: 1%;
+        right: 1%;
+        text-decoration: none;
+        font-family: 'Lato', sans-serif;
+        color: white;
+    }
       /* Section: about  */
     .about h1 {
         font-size: 35px;
@@ -518,6 +541,21 @@ aside.show {
 .main h2 {
     left: 55%;
     font-size: 45px;
+}
+.main img {
+    position: fixed;
+    top: 0;
+    left: -1%;
+    width: 150px;
+    height: 150px;
+}
+.main a {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: white;
 }
 
 .arrow {
@@ -634,6 +672,21 @@ aside.show {
     top: 50%;
     left: 55%;
     font-size: 40px;
+}
+.main img {
+    position: fixed;
+    top: 0;
+    left: -1%;
+    width: 150px;
+    height: 150px;
+}
+.main a {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: white;
 }
 
 .arrow {
@@ -793,6 +846,21 @@ aside {
     top: 50%;
     left: 55%;
     font-size: 40px;
+}
+.main img {
+    position: fixed;
+    top: 0;
+    left: -1%;
+    width: 150px;
+    height: 150px;
+}
+.main a {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: white;
 }
 
 .arrow {
