@@ -201,6 +201,13 @@ aside.show {
     font-size: 20px;
 
 }
+.main img {
+    position: fixed;
+    top: 0;
+    left: -1%;
+    width: 150px;
+    height: 150px;
+}
 
 .typed {
     border-bottom: 2px solid #ffffff;
@@ -351,6 +358,8 @@ div.adress p {
     color: white;
     text-align: center;
     font-size: 20px;
+    text-transform: none;
+    text-decoration: none;
 }
 
 /* Mapy Google */
@@ -738,7 +747,7 @@ aside {
     top: 0;
     bottom: 0;
     left: 0;
-    width: 90px;
+    width: 120px;
     background-color: black;
     opacity: 0.5;
     z-index: 500;
@@ -760,6 +769,10 @@ aside {
     height: 30px;
     text-decoration: none;
     color: #ccc;
+}
+.menu i:hover {
+  
+  color: red;
 }
 
 .menu i {
@@ -789,13 +802,13 @@ aside {
 
 /* Section: about */
 .about {
-    min-height: 100vh;
+    min-height: 200vh;
 }
 .about h1 {
     font-size: 50px;
 }
 .about-title {
-   height: 400px;
+   height: 100vh;
     
 }
 .about-title p {
@@ -816,6 +829,10 @@ aside {
 }
 .about-offer h3 {
     font-size: 45px;
+}
+.glide {
+    width: 90%;
+    margin: 0 auto;
 }
 .glide__slide img {
     width: 40%;

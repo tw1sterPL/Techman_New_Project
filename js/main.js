@@ -6,11 +6,21 @@ $(window).on("load", function () {
 $(".burger").on("click", function () {
     $(".fas,aside,.burger").toggleClass("show");
 });
-
+["PCV WINDOWS", "DOORS", "BLINDS", "GARAGE PITS"],
 //Typed Text
 $(function () {
     new Typed('#typed', {
         strings: ["OKNA", "DRZWI", "ROLETY", "BRAMY", "WERTIKALE"],
+        typeSpeed: 100,
+        backDelay: 1500,
+        loop: true,
+        callback: function () {}
+    });
+});
+//Typed Text Eng
+$(function () {
+    new Typed('#typed_eng', {
+        strings: ["PCV WINDOWS", "DOORS", "BLINDS", "GARAGE PITS"],
         typeSpeed: 100,
         backDelay: 1500,
         loop: true,
