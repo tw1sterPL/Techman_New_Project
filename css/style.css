@@ -300,7 +300,7 @@ aside.show {
 /* Section: project */
 
 .project {
-    min-height: 200vh;
+    min-height: 100vh;
     width: 90%;
     margin: 10px auto ;
     font-family: roboto, sans-serif;
@@ -864,6 +864,9 @@ aside {
 }
 
 .arrow {
+        position: absolute;
+        bottom: 10%;
+
     font-size: 80px;
 }
 
@@ -912,7 +915,7 @@ aside {
 
 /* Section: project */
 .project {
-    min-height: 100vh;
+    min-height: 120vh;
 }   
 .project h1 {
     padding-bottom: 30px;
@@ -920,17 +923,20 @@ aside {
     text-align: center;
 }
 .gallery {
+    position: absolute;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    height: 80%;
+    left: 6%;
+    /* height: 80%; */
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -ms-flex-pack: distribute;
         justify-content: space-around;
 }
 .gallery a, img {
-    width: 30%;
+    width: 300px;
+    height: 300px;;
 }
 
 /* Section: footer */
