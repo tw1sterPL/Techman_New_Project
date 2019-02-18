@@ -1,6 +1,4 @@
-/* .body {
-    overflow: hidden;
-} */
+
 .wrraper h1,
 h2 {
     text-align: center;
@@ -100,7 +98,7 @@ h2 {
 
 .burger {
     position: fixed;
-    right: 5%;
+    right: 10%;
     top: 2%;
     font-size: 40px;
     color: #564e4e;
@@ -141,7 +139,7 @@ aside {
 }
 
 aside.show {
-    right: 5px;
+    right: 40px;
 }
 
 .menu {
@@ -160,7 +158,7 @@ aside.show {
 }
 
 .menu a {
-    height: 30px;
+    height: 25px;
     text-decoration: none;
     color: #ccc;
 }
@@ -188,19 +186,19 @@ aside.show {
     transform: translate(-50%, -50%);
     font-family: 'Lato', sans-serif;
     color: white;
-    font-size: 40px;
+    font-size: 35px;
     letter-spacing: 10px;
 }
 
 .main h2 {
     position: absolute;
     top: 45%;
-    left: 50%;
+    left: 65%;
     width: 80%;
-    text-align: center;
+    text-align: left;
     font-family: 'Lato', sans-serif;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
 
 }
 
@@ -210,15 +208,17 @@ aside.show {
     left: -1%;
     width: 150px;
     height: 150px;
+    opacity: 0;
 }
 
 .main a {
     position: absolute;
     top: 1%;
-    right: 1%;
+    right: 75%;
     text-decoration: none;
     font-family: 'Lato', sans-serif;
     color: white;
+    font-size: 13px;
 }
 
 .typed {
@@ -261,15 +261,16 @@ aside.show {
 
 .arrow {
     position: absolute;
-    left: 50%;
-    bottom: 5%;
+    left: 55%;
+    bottom: 15%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    font-size: 50px;
+
 }
 
 .arrow a {
     color: white;
+    font-size: 50px;
 }
 
 /* Section: about */
@@ -278,6 +279,19 @@ aside.show {
     width: 90%;
     margin: 0 auto;
 }
+
+.about-title {
+    height: 70vh;
+    padding-top: 20px;
+}
+
+.about-title p {
+    padding-top: 15%;
+    font-size: 18px;
+    text-align: center;
+    font-family: roboto, sans-serif;
+}
+
 
 .about-us {
     margin: 0 10px;
@@ -290,10 +304,6 @@ aside.show {
     height: 80%;
     -o-object-fit: fill;
     object-fit: fill;
-}
-
-.about-us p {
-    font-size: 18px;
 }
 
 .about-us h3 {
@@ -319,15 +329,12 @@ aside.show {
 }
 
 .gallery {
-    height: 100%;
-}
-
-.gallery a {
-    margin-bottom: 10px;
-
+    padding-top: 20px;
+    /* width: 90%; */
 }
 
 .gallery img {
+    height: 10%;
     width: 100%;
     border-radius: 20px;
 }
@@ -424,7 +431,7 @@ div.adress p {
     }
 
     .burger {
-        right: 3%;
+        right: 10%;
         top: 5%;
         font-size: 25px;
     }
@@ -449,17 +456,45 @@ div.adress p {
     .menu i {
         font-size: 25px;
     }
+    .arrow {
+        position: absolute;
+        left: 50%;
+        bottom: 20%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    
+    }
+    aside.show {
+        right: 90px;
+    }
 
     /* Section: main */
     .main {
         background-image: url(../images/main2.jpg);
         background-size: cover;
     }
-
+    .main h1 {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        font-family: 'Lato', sans-serif;
+        color: white;
+        font-size: 55px;
+        letter-spacing: 10px;
+    }
+    
     .main h2 {
-        width: 50%;
-        font-size: 23px;
-        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 75%;
+        width: 80%;
+        text-align: left;
+        font-family: 'Lato', sans-serif;
+        color: white;
+        font-size: 20px;
+    
     }
 
     .main img {
@@ -473,7 +508,7 @@ div.adress p {
     .main a {
         position: absolute;
         top: 1%;
-        right: 1%;
+        right: 85%;
         text-decoration: none;
         font-family: 'Lato', sans-serif;
         color: white;
@@ -493,22 +528,32 @@ div.adress p {
     }
 
     /* Section: project */
+    .project {
+        min-height: 150vh;
+    }
     .gallery {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        height: 80%;
+        height: 100%;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         -ms-flex-pack: distribute;
         justify-content: space-around;
+        align-content: space-around;
     }
 
-    .gallery a,
-    img {
-        width: 45%;
+    .gallery a{
+        width: 30%;
+        padding-bottom: 10px;
+    
+        
     }
-
+    .gallery img {
+        height: 250px;
+        -o-object-fit: cover;
+           object-fit: cover;
+    }
     /* Section: footer */
     .footer-icon {
         bottom: 5%;
@@ -840,7 +885,6 @@ div.adress p {
 }
 
 @media (min-width: 1366px) {
-
     /* Hamburger menu */
     .burger {
         opacity: 0;
@@ -857,8 +901,8 @@ div.adress p {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-        top: 0;
-        bottom: 0;
+        top: 10%;
+        bottom: 10%;
         left: 0;
         width: 120px;
         background-color: black;
@@ -870,10 +914,18 @@ div.adress p {
     }
 
     .menu {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         width: 80%;
         height: 80%;
     }
@@ -897,16 +949,18 @@ div.adress p {
     /* Section: main */
     .main {
         background-image: url(../images/main2.jpg);
+        max-height: 100vh;
     }
 
     .main h1 {
         width: 90%;
         font-size: 120px;
+
     }
 
     .main h2 {
         top: 50%;
-        left: 55%;
+        left: 80%;
         font-size: 40px;
     }
 
@@ -916,7 +970,9 @@ div.adress p {
         left: -30px;
         width: 180px;
         height: 150px;
-        object-fit: contain;
+        -o-object-fit: contain;
+           object-fit: contain;
+        opacity: 1;
     }
 
     .main a {
@@ -988,7 +1044,7 @@ div.adress p {
 
     /* Section: project */
     .project {
-        min-height: 100vh;
+        min-height: 120vh;
     }
 
     .project h1 {
@@ -1008,15 +1064,21 @@ div.adress p {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         -ms-flex-pack: distribute;
-        justify-content: space-between;
-        align-content: space-around;
+        -webkit-box-pack: justify;
+                justify-content: space-between;
+        -ms-flex-line-pack: distribute;
+            align-content: space-around;
     }
 
-    .gallery a,
-    img {
-        width: 15%;;
-        height: 150px;
-        object-fit: cover;
+    .gallery a{
+        width: 15%;
+        height: 250px;
+        
+    }
+    .gallery img {
+        height: 250px;
+        -o-object-fit: cover;
+           object-fit: cover;
     }
 
     /* Section: footer */

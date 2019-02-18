@@ -20,7 +20,8 @@ $(function () {
 //Typed Text Eng
 $(function () {
     new Typed('#typed_eng', {
-        strings: ["PCV WINDOWS", "DOORS", "BLINDS", "GARAGE PITS"],
+        typeSpeed: 100,
+        strings: ["PCV WINDOWS", "DOORS", "BLINDS", "GARAGE GATES"],
         typeSpeed: 100,
         backDelay: 1500,
         loop: true,
@@ -44,35 +45,45 @@ $('.arrow a').on('click', function () {
 $(".open-maps").on('click', function () {
     $(".go-maps").toggleClass('on');
 });
-$('.close-button').on('click', function(){
+$('.close-button').on('click', function () {
     $('.go-maps').removeClass('on');
 });
 // Carousel Glide
 
 var glide = new Glide('.glide', {
     type: 'carousel',
-//   focusAt: 'center',
-  autoplay: 2000,
-  hoverpause: false,
-  breakpoints: {
-    415: { perView: 2 },
-    1000: { perView: 3 },
-    2000: { perView: 4 }
-  },
-  animationDuration: 2000
+    //   focusAt: 'center',
+    autoplay: 2000,
+    hoverpause: false,
+    breakpoints: {
+        415: {
+            perView: 2
+        },
+        1000: {
+            perView: 3
+        },
+        2000: {
+            perView: 4
+        }
+    },
+    animationDuration: 2000
 })
 
 glide.mount()
 
 var glide = new Glide('.glide_alu', {
     type: 'carousel',
-  autoplay: 2000,
-  hoverpause: false,
-  breakpoints: {
-    415: { perView: 1 },
-    2000: { perView: 2 }
-  },
-  animationDuration: 2500
+    autoplay: 2000,
+    hoverpause: false,
+    breakpoints: {
+        415: {
+            perView: 2
+        },
+        2000: {
+            perView: 2
+        }
+    },
+    animationDuration: 2500
 })
 
 glide.mount()
