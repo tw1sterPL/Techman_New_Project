@@ -19,7 +19,7 @@ $(function () {
 });
 //Typed Text Eng
 $(function () {
-    new Typed('#typed_eng', {
+    new Typed('#typed-eng', {
         typeSpeed: 100,
         strings: ["PCV WINDOWS", "DOORS", "BLINDS", "GARAGE GATES"],
         typeSpeed: 100,

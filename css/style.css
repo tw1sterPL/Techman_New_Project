@@ -98,7 +98,7 @@ h2 {
 
 .burger {
     position: fixed;
-    right: 10%;
+    right: 8%;
     top: 2%;
     font-size: 40px;
     color: #564e4e;
@@ -139,7 +139,7 @@ aside {
 }
 
 aside.show {
-    right: 40px;
+    right: 10px;
 }
 
 .menu {
@@ -193,8 +193,8 @@ aside.show {
 .main h2 {
     position: absolute;
     top: 45%;
-    left: 65%;
-    width: 80%;
+    left: 50%;
+    width: 60%;
     text-align: left;
     font-family: 'Lato', sans-serif;
     color: white;
@@ -431,7 +431,7 @@ div.adress p {
     }
 
     .burger {
-        right: 10%;
+        right: 5%;
         top: 5%;
         font-size: 25px;
     }
@@ -465,7 +465,7 @@ div.adress p {
     
     }
     aside.show {
-        right: 90px;
+        right: 10px;
     }
 
     /* Section: main */
@@ -488,8 +488,8 @@ div.adress p {
     .main h2 {
         position: absolute;
         top: 50%;
-        left: 75%;
-        width: 80%;
+        left: 55%;
+        width: 50%;
         text-align: left;
         font-family: 'Lato', sans-serif;
         color: white;
@@ -960,7 +960,7 @@ div.adress p {
 
     .main h2 {
         top: 50%;
-        left: 80%;
+        left: 65%;
         font-size: 40px;
     }
 
@@ -1081,53 +1081,76 @@ div.adress p {
            object-fit: cover;
     }
 
-    /* Section: footer */
-
-    footer {
-        position: relative;
-        min-height: 50vh;
-        width: 100%;
-        margin: 0 auto;
-        background: #ABCAB8;
-    }
-
-    .footer-title {
-        opacity: 0;
-    }
-
-    .footer-icon {
-        position: absolute;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-pack: distribute;
-        justify-content: space-around;
-        bottom: 10%;
-        left: 0;
-        right: 0;
-    }
-
-    .footer-icon a {
-        font-size: 40px;
-        color: white;
-    }
-
-    div.adress {
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 10%;
+    /* Section: footer ---WORKING--- */
 
 
-    }
+footer {
+    min-height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
 
-    div.adress p {
-        font-family: 'Lato', sans-serif;
-        color: white;
-        text-align: center;
-        font-size: 20px;
-    }
+.footer-title {
+display: none;
+}
 
+.footer-icon {
+    position: static;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 20%;
+    height: 50%;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.footer-icon a {
+    font-size: 40px;
+    color: white;
+}
+
+div.adress {
+    width: 30%;
+    height: 50%;
+    top: 0;
+}
+div.adress h4 {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+div.adress p {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    text-transform: none;
+    text-decoration: none;
+}
+div.company {
+    width: 30%;
+    height: 50%;
+
+}
+div.company h4 {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+div.company p {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    text-transform: none;
+    text-decoration: none;
+}
     /* Mapy Google */
 
     .go-maps {
